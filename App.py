@@ -100,13 +100,13 @@ except FileNotFoundError:
 st.sidebar.title("Developer: Abhishek Kumar")
 
 # Add my jpg to sidebar
-my_jpg_path = "my.jpg"  # Ensure this file is in the same directory as your script
+my_jpg_path = "pic.jpg"  # Ensure this file is in the same directory as your script
 
 try:
     # Remove use_container_width if it's causing an error
-    st.sidebar.image(my_jpg_path)
+    st.sidebar.image(pic_jpg_path)
 except FileNotFoundError:
-    st.sidebar.warning("my.jpg not found. Please check the file path.")
+    st.sidebar.warning("pic.jpg not found. Please check the file path.")
     
     
     
