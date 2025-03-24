@@ -104,7 +104,7 @@ my_jpg_path = "pic.jpg"  # Ensure this file is in the same directory as your scr
 
 try:
     # Remove use_container_width if it's causing an error
-    st.sidebar.image(pic_jpg_path)
+    st.sidebar.image(my_jpg_path)
 except FileNotFoundError:
     st.sidebar.warning("pic.jpg not found. Please check the file path.")
     
